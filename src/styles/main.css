@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+@import 'tailwindcss';
+
+@theme {
+
+  --font-rajdhani: Rajdhani, sans-serif;
+  --font-montserrat: Montserrat, sans-serif;
+  
+  --color-black: #101010;
+  --color-white: #F5F5F5;
+  --color-bg-dark: #101010;
+  --color-bg-light: #F5F5F5;
+  --color-text-black: #101010;
+  --color-text-white: #F5F5F5;
+  --color-accent: #00FF00;
+
+}
+
+html, body {
+  font-family: "Montserrat", sans-serif;
+}
