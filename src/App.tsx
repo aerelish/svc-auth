@@ -7,7 +7,7 @@ function App() {
     <div className="w-screen h-screen bg-bg-dark flex items-center justify-center px-4">
       <div className='w-full max-w-sm sm:max-w-md'>
         <Card>
-          <h1 className='font-rajdhani text-4xl font-medium mb-8'>Login</h1>
+          <h1 className='font-rajdhani text-4xl font-medium mb-8'>Authentication</h1>
           <form
             action=""
             className="flex flex-col gap-2"
