@@ -9,7 +9,7 @@ const router = express.Router();
 router.post('/', async (req, res) => {
 
   const { 
-    username, 
+    username,
     password
   } = req.body;
  
