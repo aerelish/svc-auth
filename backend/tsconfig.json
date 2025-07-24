@@ -1,12 +1,13 @@
 {
   "compilerOptions": {
     "target": "es2022",             // Or a newer ECMAScript version like "esnext"
-    "module": "esnext",             // Or "commonjs", "node16", "nodenext" depending on your environment
-    "moduleResolution": "node",     // Or "node16", "nodenext" for Node.js environments
+    "module": "node16",             // Or "commonjs", "node16", "nodenext" depending on your environment
+    "moduleResolution": "node16",     // Or "node16", "nodenext" for Node.js environments
     "outDir": "./dist",
     "strict": true,
     "esModuleInterop": true,        // Enables better interoperability with CommonJS modules
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": "./",
   },
   "include": [
     "src/**/*.ts"                   // Adjust to your source file location

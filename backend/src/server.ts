@@ -4,6 +4,7 @@ import morgan from 'morgan';
 import loginRoute from './routes/loginRoute';
 import registerRoute from './routes/registerRoute';
 import validateRoute from './routes/validateRoute';
+import userRoute from './routes/userRoute';
 
 const server = express();
 
@@ -27,6 +28,9 @@ server.use(express.json());
 server.use('/login', loginRoute);
 server.use('/register', registerRoute);
 server.use('/validate', validateRoute);
+
+/**@protected_routes */
+server.use('/users', userRoute)
 
 /**@start_server */
 server.listen(PORT, () => {

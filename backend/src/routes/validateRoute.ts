@@ -4,7 +4,7 @@ import getErrorMessage from '../utils/getErrorMessage';
 
 const router = express.Router();
 
-router.post('/', async (req, res) => {
+router.get('/', async (req, res) => {
 
   const token = req.headers.authorization?.split(' ')[1];
   if (!token) {
