@@ -11,9 +11,10 @@ function App() {
           <form
             action=""
             className="flex flex-col gap-2"
+            onSubmit={(e) => e.preventDefault()}
           >
             <Input name='username' />
-            <Input name='pasword' type='password' />
+            <Input name='password' type='password' />
             <div className='flex gap-1 mt-4'>
               <Button>Login</Button>
               <Button variants='secondary'>Register</Button>
